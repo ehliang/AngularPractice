@@ -7,3 +7,6 @@ font-style: italic;
 .underline{
     text-decoration:underline; 
 }
+.odd{
+    background-color: red; 
+}
