@@ -4,10 +4,11 @@ angular.module('root', [])
     }]);
 
 
-angular.module('abc', []).controller("index", ["$scope", function ($scope) { 
+angular.module('abc', [])
+    .controller("index", ["$scope", function ($scope) { 
 $scope.favoriteWord; 
 $scope.favoriteColor; 
-    $scope.favoriteShape; 
+$scope.favoriteShape; 
     
 }]);
 
@@ -24,3 +25,5 @@ angular.module("repeater", [])
         
         
     }])
+
+
