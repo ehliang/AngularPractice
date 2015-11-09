@@ -1,5 +1,5 @@
 angular.module("main",["factory"])
     .controller("functioninj", ["$scope","square", function($scope,square){
         $scope.input; 
-        $scope.product=square; 
+        $scope.avcj=square.factor($scope.input); 
     }]);
